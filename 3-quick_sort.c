@@ -55,6 +55,7 @@ int partition(int *array, int low, int high, size_t size)
 
 			{
 				int tmp = array[i];
+
 				array[i] = array[j];
 				array[j] = tmp;
 				print_array(array, size);
@@ -65,6 +66,7 @@ int partition(int *array, int low, int high, size_t size)
 	if (array[high] != array[i + 1])
 	{
 		int tmp = array[i + 1];
+
 		array[i + 1] = array[high];
 		array[high] = tmp;
 		print_array(array, size);
