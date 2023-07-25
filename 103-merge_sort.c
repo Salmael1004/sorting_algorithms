@@ -19,7 +19,7 @@ void merge_sort(int *array, size_t size)
 }
 
 /**
- * merge_recursion - recursive function
+ * merge_recu - recursive function
  * @zb1: copy array
  * @array: array to merge sort
  * @left: index of the left element
@@ -39,7 +39,7 @@ void merge_recu(int *zb1, int *array, size_t left, size_t right)
 }
 
 /**
- * merge_subarray - merges subarrays
+ * merge_sub - merges subarrays
  * @zb1: copy array
  * @array: array to merge
  * @left: index of the left element
