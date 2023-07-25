@@ -43,4 +43,6 @@ void neo_swap(int *a, int *b);
 void heapi(int *array, size_t size, size_t base, size_t root);
 void heap_sort(int *array, size_t size);
 
+void radix_sort(int *array, size_t size);
+
 #endif
