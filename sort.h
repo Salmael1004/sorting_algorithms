@@ -32,7 +32,10 @@ void shell_sort(int *array, size_t size);
 void neo_switch(listint_t *new, listint_t *old, listint_t **list);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
-
+void merge_sort(int *array, size_t size);
+void merge_recu(int *zb1, int *array, size_t left, size_t right);
+void merge_sub(int *zb1, int *array, size_t left,
+		size_t middle, size_t right);
 
 
 #endif
