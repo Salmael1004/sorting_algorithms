@@ -36,6 +36,11 @@ void merge_sort(int *array, size_t size);
 void merge_recu(int *zb1, int *array, size_t left, size_t right);
 void merge_sub(int *zb1, int *array, size_t left,
 		size_t middle, size_t right);
+void heap_sort(int *array, size_t size);
+void heapify(int *array, size_t s, size_t root, size_t size);
 
+void neo_swap(int *a, int *b);
+void heapi(int *array, size_t size, size_t base, size_t root);
+void heap_sort(int *array, size_t size);
 
 #endif
