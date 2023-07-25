@@ -29,7 +29,8 @@ void quick_sort(int *array, size_t size);
 void q_recu(int *array, int left, int right, size_t size);
 int q_part(int *array, int left, int right, size_t size);
 void shell_sort(int *array, size_t size);
-
+void neo_switch(listint_t *new, listint_t *old, listint_t **list);
+void cocktail_sort_list(listint_t **list);
 
 
 #endif
